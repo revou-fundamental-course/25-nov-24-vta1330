@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap");
+
 :root {
     --underweight: orange;
     --normal: green;
@@ -97,11 +99,12 @@ h1 {
     display: flex;
 }
 
-.bmi-scale {
+.bmi-scale div {
     flex: 1;
     text-align: center;
     text-transform: uppercase;
     border-top: 5px solid var(--color);
+    padding: 10px;
 }
 
 .bmi-scale h4 {
